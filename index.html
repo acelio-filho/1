@@ -21,7 +21,7 @@
     </header>
 </main>
 <script>function getReferrer(){
-    return document.referrer;
+    if(!document.referrer){return "sem referrer";}else{return document.referrer;}
 }</script>
 </body>
 </html>
