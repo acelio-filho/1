@@ -9,6 +9,9 @@
         *{padding:0;margin: 0;box-sizing: content-box;}
         body{font-family: sans-serif;}
     </style>
+    <script>function getReferrer(){
+        if(!document.referrer){return "sem referrer";}else{return document.referrer;}
+    }</script>
 </head>
 <body>
     <main>
@@ -20,8 +23,6 @@
         <script>getReferrer();</script>
     </header>
 </main>
-<script>function getReferrer(){
-    if(!document.referrer){return "sem referrer";}else{return document.referrer;}
-}</script>
+
 </body>
 </html>
